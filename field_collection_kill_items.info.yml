@@ -1,0 +1,6 @@
+name: Kill field collection items
+type: module
+description: 'Kill errant field collection items.'
+core: 8.x
+dependencies:
+  - field_collection

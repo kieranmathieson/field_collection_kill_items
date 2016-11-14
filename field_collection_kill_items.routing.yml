@@ -1,0 +1,7 @@
+field_collection_kill_items.kill_form:
+  path: 'admin/config/content/field_collection_kill_items'
+  defaults:
+    _form:  '\Drupal\field_collection_kill_items\Form\KillItemsForm'
+    _title: 'Kill field collection items'
+  requirements:
+    _permission: 'administer content types'
